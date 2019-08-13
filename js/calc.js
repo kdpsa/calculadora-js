@@ -17,11 +17,11 @@ function operacao(op) {
             break;
         case 'div':
             if (n2 == 0) {
-                s = 'Número não divisível por <strong>0</strong>.'
+                s = '<strong>Número não divisível por 0</strong>.'
             } else {
                 s = (n1 / n2)
             }
             break;
     }
-    res.innerHTML = `${s}`
+    res.innerHTML = `Resultado: ${s}`
 }
