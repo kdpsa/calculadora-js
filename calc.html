@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    
+    <h1>Calculadora</h1>
+
+    <input type="text" name="txta" id="txta">
+    <p></p>
+    <input type="text" name="txtb" id="txtb">
+    <p></p>
+    <input type="button" id="soma" name="soma" value="+" onclick="operacao('soma')">
+    <input type="button" id="sub" name="sub" value="-" onclick="operacao('sub')">
+    <input type="button" id="mult" name="mult" value="*" onclick="operacao('mult')">
+    <input type="button" id="div" name="div" value="/" onclick="operacao('div')">
+    <div id="res">Resultado</div>
+
+    <script src="js/calc.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+body{
+    font: normal 15pt monospace;
+    background-color: #333;
+    color: #eee;
+}
+
+input[type='text'] {
+    width: 25%;
+}
+
+div#op{
+    padding: 1.5%;
+    margin-left: 15px;
+}
+
+div#res{
+    margin-top: 20px;
+}
